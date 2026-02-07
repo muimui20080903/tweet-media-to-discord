@@ -6,7 +6,7 @@ use serenity::http::Http;
 use serenity::model::channel::Message;
 use serenity::model::gateway::Ready;
 use serenity::prelude::{Context, EventHandler, GatewayIntents};
-use serenity::{async_trait, Client};
+use serenity::{Client, async_trait};
 
 use regex::Regex;
 
